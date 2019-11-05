@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchSushiTower_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" id="Tz4-b9-uB3"/>
+                        <button width="1" height="42" alignment="center" verticalAlignment="center" semanticContentAttribute="forceLeftToRight" title="Right" id="zvP-k3-jZ4">
+                            <connections>
+                                <action selector="MoveRight" destination="AgC-eL-Hgc" id="cI3-Wm-O5S"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="43" alignment="center" verticalAlignment="bottom" semanticContentAttribute="forceLeftToRight" title="Left" id="Gvc-a5-yPu">
+                            <connections>
+                                <action selector="MoveLeft" destination="AgC-eL-Hgc" id="SVg-Mh-bcM"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="Labbel" destination="Tz4-b9-uB3" id="vvq-qH-505"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+    </scenes>
+</document>

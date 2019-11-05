@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0C41B1236C942800382369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C41B0236C942800382369 /* AppDelegate.swift */; };
+		AF0C41B3236C942800382369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C41B2236C942800382369 /* ViewController.swift */; };
+		AF0C41B6236C942800382369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0C41B4236C942800382369 /* Main.storyboard */; };
+		AF0C41B8236C942B00382369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0C41B7236C942B00382369 /* Assets.xcassets */; };
+		AF0C41BB236C942B00382369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0C41B9236C942B00382369 /* LaunchScreen.storyboard */; };
+		AF0C41C0236C942B00382369 /* WatchSushiTower WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AF0C41BF236C942B00382369 /* WatchSushiTower WatchKit App.app */; };
+		AF0C41C6236C942B00382369 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0C41C4236C942B00382369 /* Interface.storyboard */; };
+		AF0C41C8236C942B00382369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0C41C7236C942B00382369 /* Assets.xcassets */; };
+		AF0C41CF236C942C00382369 /* WatchSushiTower WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AF0C41CE236C942C00382369 /* WatchSushiTower WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF0C41D4236C942C00382369 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C41D3236C942C00382369 /* InterfaceController.swift */; };
+		AF0C41D6236C942C00382369 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C41D5236C942C00382369 /* ExtensionDelegate.swift */; };
+		AF0C41D8236C942C00382369 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C41D7236C942C00382369 /* NotificationController.swift */; };
+		AF0C41DA236C942C00382369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0C41D9236C942C00382369 /* Assets.xcassets */; };
+		AF0C41EB236C955300382369 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C41EA236C955300382369 /* GameScene.swift */; };
+		AF0C41ED236C95BD00382369 /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0C41EC236C95BD00382369 /* SushiPiece.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF0C41C1236C942B00382369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF0C41A5236C942800382369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF0C41BE236C942B00382369;
+			remoteInfo = "WatchSushiTower WatchKit App";
+		};
+		AF0C41D0236C942C00382369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF0C41A5236C942800382369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF0C41CD236C942C00382369;
+			remoteInfo = "WatchSushiTower WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF0C41E2236C942C00382369 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF0C41CF236C942C00382369 /* WatchSushiTower WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C41E6236C942C00382369 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AF0C41C0236C942B00382369 /* WatchSushiTower WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF0C41AD236C942800382369 /* WatchSushiTower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchSushiTower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0C41B0236C942800382369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF0C41B2236C942800382369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF0C41B5236C942800382369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF0C41B7236C942B00382369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF0C41BA236C942B00382369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF0C41BC236C942B00382369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0C41BF236C942B00382369 /* WatchSushiTower WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchSushiTower WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0C41C5236C942B00382369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AF0C41C7236C942B00382369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF0C41C9236C942B00382369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0C41CE236C942C00382369 /* WatchSushiTower WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchSushiTower WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0C41D3236C942C00382369 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AF0C41D5236C942C00382369 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AF0C41D7236C942C00382369 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AF0C41D9236C942C00382369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF0C41DB236C942C00382369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0C41DC236C942C00382369 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AF0C41EA236C955300382369 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AF0C41EC236C95BD00382369 /* SushiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0C41AA236C942800382369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C41CB236C942C00382369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF0C41A4236C942800382369 = {
+			isa = PBXGroup;
+			children = (
+				AF0C41AF236C942800382369 /* WatchSushiTower */,
+				AF0C41C3236C942B00382369 /* WatchSushiTower WatchKit App */,
+				AF0C41D2236C942C00382369 /* WatchSushiTower WatchKit Extension */,
+				AF0C41AE236C942800382369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0C41AE236C942800382369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C41AD236C942800382369 /* WatchSushiTower.app */,
+				AF0C41BF236C942B00382369 /* WatchSushiTower WatchKit App.app */,
+				AF0C41CE236C942C00382369 /* WatchSushiTower WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF0C41AF236C942800382369 /* WatchSushiTower */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C41B0236C942800382369 /* AppDelegate.swift */,
+				AF0C41EC236C95BD00382369 /* SushiPiece.swift */,
+				AF0C41EA236C955300382369 /* GameScene.swift */,
+				AF0C41B2236C942800382369 /* ViewController.swift */,
+				AF0C41B4236C942800382369 /* Main.storyboard */,
+				AF0C41B7236C942B00382369 /* Assets.xcassets */,
+				AF0C41B9236C942B00382369 /* LaunchScreen.storyboard */,
+				AF0C41BC236C942B00382369 /* Info.plist */,
+			);
+			path = WatchSushiTower;
+			sourceTree = "<group>";
+		};
+		AF0C41C3236C942B00382369 /* WatchSushiTower WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C41C4236C942B00382369 /* Interface.storyboard */,
+				AF0C41C7236C942B00382369 /* Assets.xcassets */,
+				AF0C41C9236C942B00382369 /* Info.plist */,
+			);
+			path = "WatchSushiTower WatchKit App";
+			sourceTree = "<group>";
+		};
+		AF0C41D2236C942C00382369 /* WatchSushiTower WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C41D3236C942C00382369 /* InterfaceController.swift */,
+				AF0C41D5236C942C00382369 /* ExtensionDelegate.swift */,
+				AF0C41D7236C942C00382369 /* NotificationController.swift */,
+				AF0C41D9236C942C00382369 /* Assets.xcassets */,
+				AF0C41DB236C942C00382369 /* Info.plist */,
+				AF0C41DC236C942C00382369 /* PushNotificationPayload.apns */,
+			);
+			path = "WatchSushiTower WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0C41AC236C942800382369 /* WatchSushiTower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0C41E7236C942C00382369 /* Build configuration list for PBXNativeTarget "WatchSushiTower" */;
+			buildPhases = (
+				AF0C41A9236C942800382369 /* Sources */,
+				AF0C41AA236C942800382369 /* Frameworks */,
+				AF0C41AB236C942800382369 /* Resources */,
+				AF0C41E6236C942C00382369 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF0C41C2236C942B00382369 /* PBXTargetDependency */,
+			);
+			name = WatchSushiTower;
+			productName = WatchSushiTower;
+			productReference = AF0C41AD236C942800382369 /* WatchSushiTower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF0C41BE236C942B00382369 /* WatchSushiTower WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0C41E3236C942C00382369 /* Build configuration list for PBXNativeTarget "WatchSushiTower WatchKit App" */;
+			buildPhases = (
+				AF0C41BD236C942B00382369 /* Resources */,
+				AF0C41E2236C942C00382369 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF0C41D1236C942C00382369 /* PBXTargetDependency */,
+			);
+			name = "WatchSushiTower WatchKit App";
+			productName = "WatchSushiTower WatchKit App";
+			productReference = AF0C41BF236C942B00382369 /* WatchSushiTower WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AF0C41CD236C942C00382369 /* WatchSushiTower WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0C41DF236C942C00382369 /* Build configuration list for PBXNativeTarget "WatchSushiTower WatchKit Extension" */;
+			buildPhases = (
+				AF0C41CA236C942C00382369 /* Sources */,
+				AF0C41CB236C942C00382369 /* Frameworks */,
+				AF0C41CC236C942C00382369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchSushiTower WatchKit Extension";
+			productName = "WatchSushiTower WatchKit Extension";
+			productReference = AF0C41CE236C942C00382369 /* WatchSushiTower WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF0C41A5236C942800382369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					AF0C41AC236C942800382369 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AF0C41BE236C942B00382369 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AF0C41CD236C942C00382369 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AF0C41A8236C942800382369 /* Build configuration list for PBXProject "WatchSushiTower" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF0C41A4236C942800382369;
+			productRefGroup = AF0C41AE236C942800382369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0C41AC236C942800382369 /* WatchSushiTower */,
+				AF0C41BE236C942B00382369 /* WatchSushiTower WatchKit App */,
+				AF0C41CD236C942C00382369 /* WatchSushiTower WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF0C41AB236C942800382369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C41BB236C942B00382369 /* LaunchScreen.storyboard in Resources */,
+				AF0C41B8236C942B00382369 /* Assets.xcassets in Resources */,
+				AF0C41B6236C942800382369 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C41BD236C942B00382369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C41C8236C942B00382369 /* Assets.xcassets in Resources */,
+				AF0C41C6236C942B00382369 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C41CC236C942C00382369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C41DA236C942C00382369 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF0C41A9236C942800382369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C41EB236C955300382369 /* GameScene.swift in Sources */,
+				AF0C41ED236C95BD00382369 /* SushiPiece.swift in Sources */,
+				AF0C41B3236C942800382369 /* ViewController.swift in Sources */,
+				AF0C41B1236C942800382369 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C41CA236C942C00382369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C41D8236C942C00382369 /* NotificationController.swift in Sources */,
+				AF0C41D6236C942C00382369 /* ExtensionDelegate.swift in Sources */,
+				AF0C41D4236C942C00382369 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF0C41C2236C942B00382369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF0C41BE236C942B00382369 /* WatchSushiTower WatchKit App */;
+			targetProxy = AF0C41C1236C942B00382369 /* PBXContainerItemProxy */;
+		};
+		AF0C41D1236C942C00382369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF0C41CD236C942C00382369 /* WatchSushiTower WatchKit Extension */;
+			targetProxy = AF0C41D0236C942C00382369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF0C41B4236C942800382369 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0C41B5236C942800382369 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF0C41B9236C942B00382369 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0C41BA236C942B00382369 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF0C41C4236C942B00382369 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0C41C5236C942B00382369 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF0C41DD236C942C00382369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF0C41DE236C942C00382369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF0C41E0236C942C00382369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WatchSushiTower WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Navleen.WatchSushiTower.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		AF0C41E1236C942C00382369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WatchSushiTower WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Navleen.WatchSushiTower.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		AF0C41E4236C942C00382369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = WatchSushiTower_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchSushiTower WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Navleen.WatchSushiTower.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		AF0C41E5236C942C00382369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = WatchSushiTower_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchSushiTower WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Navleen.WatchSushiTower.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		AF0C41E8236C942C00382369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WatchSushiTower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Navleen.WatchSushiTower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF0C41E9236C942C00382369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WatchSushiTower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Navleen.WatchSushiTower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF0C41A8236C942800382369 /* Build configuration list for PBXProject "WatchSushiTower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C41DD236C942C00382369 /* Debug */,
+				AF0C41DE236C942C00382369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0C41DF236C942C00382369 /* Build configuration list for PBXNativeTarget "WatchSushiTower WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C41E0236C942C00382369 /* Debug */,
+				AF0C41E1236C942C00382369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0C41E3236C942C00382369 /* Build configuration list for PBXNativeTarget "WatchSushiTower WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C41E4236C942C00382369 /* Debug */,
+				AF0C41E5236C942C00382369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0C41E7236C942C00382369 /* Build configuration list for PBXNativeTarget "WatchSushiTower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C41E8236C942C00382369 /* Debug */,
+				AF0C41E9236C942C00382369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF0C41A5236C942800382369 /* Project object */;
+}
